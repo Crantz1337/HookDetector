@@ -1,8 +1,6 @@
 # HookDetector
 
-Scans for hooks in commonly used modules. You can change which modules will be scanned by changing the Targets.h file. 
-
-Usage: HookDetector.exe Processname.exe
+Scans for hooks in commonly used modules. You can change which modules will be scanned by changing the Targets.h file. Usage: HookDetector.exe Processname.exe
 
 After hooking various functions in notepad
 
