@@ -46,7 +46,7 @@ int main(int argc, char** argv)
 
 	do
 	{	
-		// Check if current module is the on we're targeting
+		// Check if current module is the one we're targeting
 		for (size_t i = 0; i < strlen(mInfo.szModule); i++)
 			mInfo.szModule[i] = isupper(mInfo.szModule[i]) ? tolower(mInfo.szModule[i]) : mInfo.szModule[i];	
 		if (!std::count(targets.begin(), targets.end(), mInfo.szModule))
