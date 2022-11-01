@@ -7,7 +7,7 @@ int main(int argc, char** argv)
 {		
 	if (argc < 2)
 	{
-		printf("Example usage : 'mspaint.exe'\n"); system("PAUSE");
+		printf("Example usage : 'HookDetector.exe mspaint.exe'\n"); system("PAUSE");
 		return 1;
 	}
 	
