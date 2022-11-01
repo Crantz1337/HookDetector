@@ -5,4 +5,5 @@ Scans for hooks in commonly used modules. You can change which modules will be s
 Usage: HookDetector.exe Processname.exe
 
 After hooking various functions in notepad
+
 ![Output](https://cdn.discordapp.com/attachments/778957087601328130/1037080943703371887/output.png)
